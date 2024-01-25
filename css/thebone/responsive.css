@@ -1,0 +1,13 @@
+@media screen and (max-width: 1450px) {
+    html {
+        font-size:0.75rem;
+    }
+    header .nav-wrap {
+        left:47%;
+    }
+}
+@media screen and (max-width: 1080px)  {
+    html {
+        font-size:0.6875rem;
+    }
+}

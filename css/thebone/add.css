@@ -1,0 +1,39 @@
+/* ============================== /_inc/top.php ============================== */
+header > div .header-left a{position: relative; z-index: 10;}
+header > div .header-right{display: inline-block; text-align: center; vertical-align: middle; float: right;}
+header > div .header-right a{display: block; position: relative; height: 6.25rem; padding-right: 1.25rem; background: url(../../img/ico_link.png) center right no-repeat; line-height: 6.25rem; font-size: 0.875rem; color: #636363; cursor: pointer; z-index : 10;}
+header > div .header-center{display: inline-block; position: absolute; left:0; top:0;	width: 100%;  text-align: center;  vertical-align: middle;}
+header > div .header-center ul {display: block;  width: 100%;  height: auto;}
+header > div .header-center ul li {display: inline-block;  padding: 0 1.25rem;  height: auto;}
+header > div .header-center ul li a {display: block;  width: 100%;  height: 6.25rem;  line-height: 6.25rem;  font-size: 1rem;  font-weight: 500;  color: #000;  cursor: pointer;}
+header > div .header-center ul li:last-child a{background:url(../../img/ico_book.png) no-repeat center right; padding-right:17px;}
+
+/* ============================== prebrand.css ============================== */
+#container.cate section .brand>div .brand-lists>ul>li{position:relative; margin-right:1.5rem;}
+#container.cate section .brand>div .brand-lists>ul>li .txt-box{text-align:right;}
+#container.cate section .brand>div .brand-lists>ul>li .txt-box .logo-ico{text-align:left;}
+#container.cate section .brand>div .brand-lists>ul>li .txt-box dl{text-align:left;}
+#container.cate section .brand>div .brand-lists>ul>li .brand-home-move{position:absolute; left:0; top:0; width:100%; height:100%;}
+#container.cate section .brand>div .brand-lists>ul>li .brand-home-move span{
+    position: absolute;
+    bottom: 1.125rem;
+    right: 1rem;
+    display: block;
+    width: auto;
+    height: 1.375rem;
+    padding-left: 1.25rem;
+    line-height: 1.5rem;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #777;
+    background-image: url(../../img/athome_ico.png);
+    background-size: 0.875rem 0.875rem;
+    background-position: left center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.btn_top{position:fixed; right:9%; bottom:60px;}
+@media all and (max-width:1450px){
+    .btn_top{right:5%;}
+}

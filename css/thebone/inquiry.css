@@ -1,0 +1,7 @@
+#container.cate section .table-wrap .table-area table tbody tr td .textarea-wrap textarea {
+    height:auto;
+}
+
+#container.cate section .table-wrap .table-area > div ul li dd .textarea-wrap textarea {
+    height:auto;
+}

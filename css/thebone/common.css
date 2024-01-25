@@ -1,0 +1,50 @@
+html {
+    width: 100%;
+    min-width: 1200px;
+    font-family: 'SCDream', 'NotoSansKR', Arial, sans-serif;
+    font-size: 1rem;
+    color: #000; /* 이 값을 실제 색상 값으로 변경하세요 */
+    line-height: 1;
+}
+
+html body {
+    width: 100%;
+}
+
+html .nt {
+    font-family: 'NotoSansKR', 'SCDream', Arial, sans-serif;
+}
+
+.date-box {
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.date-box .day {
+    display: block;
+    font-size: 3rem;
+    padding-top: 0.3125rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.hidden {
+    position: absolute;
+    text-indent: -9999px;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.visit {
+    opacity: 0.5;
+}
